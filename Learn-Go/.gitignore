@@ -1,0 +1,160 @@
+# =========================
+# Go / Golang
+# =========================
+
+# Compiled Go binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go build output
+/bin/
+/build/
+/dist/
+/out/
+
+# Go workspace
+go.work.sum
+
+# =========================
+# Go coverage / profiling
+# =========================
+
+coverage.out
+coverage.html
+*.coverprofile
+*.prof
+*.pprof
+
+# =========================
+# Go test artifacts
+# =========================
+
+*.test
+test-results/
+test-reports/
+
+# =========================
+# Go build cache
+# =========================
+
+# Go compiler cache
+.gocache/
+
+# =========================
+# Vendor
+# =========================
+
+# Uncomment this if you DON'T want to commit vendor dependencies
+# vendor/
+
+# =========================
+# Go workspace
+# =========================
+
+# Local workspace files
+go.work
+go.work.sum
+
+# =========================
+# IDEs
+# =========================
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains / GoLand
+.idea/
+*.iml
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Vim
+*.swp
+*.swo
+*~
+
+# =========================
+# Debugging
+# =========================
+
+*.debug
+*.dSYM/
+*.stackdump
+core
+core.*
+vgcore.*
+
+# =========================
+# Logs
+# =========================
+
+*.log
+logs/
+
+# =========================
+# Environment variables
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# =========================
+# Local configuration
+# =========================
+
+*.local
+config.local.*
+local.*
+
+# =========================
+# Temporary files
+# =========================
+
+*.tmp
+*.temp
+*.bak
+*.backup
+*.orig
+*.rej
+.#*
+*~
+
+# =========================
+# OS generated files
+# =========================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+.directory
+
+# =========================
+# Documentation build
+# =========================
+
+docs/_build/
+site/
+
+# =========================
+# Generated files
+# =========================
+
+*.gen.go
