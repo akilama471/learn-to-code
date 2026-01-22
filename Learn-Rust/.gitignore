@@ -1,0 +1,118 @@
+# =========================
+# Rust / Cargo
+# =========================
+
+# Cargo build directory
+/target/
+
+# Rust backup files
+*.rs.bk
+
+# Rust compiled binaries
+*.rlib
+*.rmeta
+*.d
+*.pdb
+*.exe
+
+# =========================
+# Cargo workspace
+# =========================
+
+# Cargo lock file
+# For applications, Cargo.lock SHOULD be committed.
+# For libraries, it may be ignored depending on your policy.
+# Cargo.lock
+
+# =========================
+# IDEs
+# =========================
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains / RustRover / IntelliJ
+.idea/
+*.iml
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# =========================
+# Rust Analyzer
+# =========================
+
+# rust-analyzer cache
+.rust-analyzer/
+
+# =========================
+# Testing / Coverage
+# =========================
+
+coverage/
+tarpaulin-report.html
+lcov.info
+*.profraw
+*.profdata
+
+# =========================
+# Documentation
+# =========================
+
+/target/doc/
+/docs/_build/
+
+# =========================
+# Environment variables
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# =========================
+# Logs
+# =========================
+
+*.log
+logs/
+
+# =========================
+# Temporary files
+# =========================
+
+*.tmp
+*.temp
+*.bak
+*.backup
+*.swp
+*.swo
+*.orig
+*.rej
+*~
+.#*
+
+# =========================
+# OS generated files
+# =========================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+.directory
+
+# =========================
+# Generated files
+# =========================
+
+*.generated.rs
